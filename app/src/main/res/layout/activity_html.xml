@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/ViewContentOne"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="14dp"
+            android:stretchColumns="1,2,3,4"
+
+            tools:context=".MainActivity">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="학식표"
+                android:id="@+id/pyo_name"
+                android:textSize="20sp"
+                android:background="#3DDC84"
+                android:layout_marginBottom="10dp"/>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="구분"
+                    android:layout_margin="1dp"
+                    android:background="#1EA4FF"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="금정회관\n학생식당"
+                    android:layout_margin="1dp"
+                    android:background="#1EA4FF"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="문창회관\n학생식당"
+                    android:layout_margin="1dp"
+                    android:background="#1EA4FF"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="샛벌회관\n학생식당"
+                    android:layout_margin="1dp"
+                    android:background="#1EA4FF"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="학생회관\n학생식당"
+                    android:layout_margin="1dp"
+                    android:background="#1EA4FF"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="아침"
+                    android:background="#3DDC84"
+                    android:layout_margin="1dp"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text=""
+                    android:layout_margin="1dp"
+                    android:background="#C8C8C8"
+                    android:id="@+id/Kb"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text=""
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:id="@+id/Mb"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text=""
+                    android:layout_margin="1dp"
+                    android:background="#C8C8C8"
+                    android:id="@+id/Sb"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text=""
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:id="@+id/Hb"
+                    android:textSize="12sp" />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="점심"
+                    android:layout_margin="1dp"
+                    android:background="#3DDC84"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text=""
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:id="@+id/Kl"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text=""
+                    android:layout_margin="1dp"
+                    android:background="#C8C8C8"
+                    android:id="@+id/Ml"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text=""
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:id="@+id/Sl"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text=""
+                    android:layout_margin="1dp"
+                    android:background="#C8C8C8"
+                    android:id="@+id/Hl"
+                    android:textSize="12sp" />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="저녁"
+                    android:layout_margin="1dp"
+                    android:background="#3DDC84"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text=""
+                    android:layout_margin="1dp"
+                    android:background="#C8C8C8"
+                    android:id="@+id/Kd"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text=""
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:id="@+id/Md"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text=""
+                    android:layout_margin="1dp"
+                    android:background="#C8C8C8"
+                    android:id="@+id/Sd"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text=""
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:id="@+id/Hd"
+                    android:textSize="12sp" />
+            </TableRow>
+        </TableLayout>
+    </HorizontalScrollView>
+</ScrollView>

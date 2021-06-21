@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dongbina">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_banner"
+        android:label="6조 앱 개발"
+        android:roundIcon="@mipmap/ic_banner"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <meta-data
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="7obj24rzqn" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".info"></activity>
+        <activity android:name=".APIMainActivity"></activity>
+        <activity android:name=".register"></activity>
+        <activity android:name=".html"></activity>
+        <activity android:name=".koreanfood"></activity>
+        <activity android:name=".chinesefood"></activity>
+        <activity android:name=".chicken"></activity>
+        <activity android:name=".fastfood"></activity>
+        <activity android:name=".pig"></activity>
+        <activity android:name=".pizza"></activity>
+        <activity android:name=".chinesefood1_info"></activity>
+        <activity android:name=".chinesefood3_info"></activity>
+        <activity android:name=".koreanfood1_info"></activity>
+        <activity android:name=".koreanfood2_info"></activity>
+        <activity android:name=".koreanfood3_info"></activity>
+        <activity android:name=".chicken1_info"></activity>
+        <activity android:name=".chicken2_info"></activity>
+        <activity android:name=".chicken3_info"></activity>
+        <activity android:name=".pizza1_info"></activity>
+        <activity android:name=".pizza2_info"></activity>
+        <activity android:name=".pizza3_info"></activity>
+        <activity android:name=".fastfood1_info"></activity>
+        <activity android:name=".fastfood2_info"></activity>
+        <activity android:name=".fastfood3_info"></activity>
+        <activity android:name=".pig1_info"></activity>
+        <activity android:name=".pig2_info"></activity>
+        <activity android:name=".pig3_info"></activity>
+
+
+
+    </application>
+
+</manifest>

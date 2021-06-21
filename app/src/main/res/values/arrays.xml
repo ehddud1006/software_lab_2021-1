@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="major">
+        <item>상상짬뽕</item>
+        <item>범짜장</item>
+        <item>류서방짬뽕</item>
+        <item>사오시안</item>
+        <item>수림식당</item>
+        <item>락앤웍</item>
+    </string-array>
+</resources>

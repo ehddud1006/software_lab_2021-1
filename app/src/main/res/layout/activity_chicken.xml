@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chicken">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1EA4FF"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="258dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@mipmap/hungry"
+                android:text="    치킨"
+                android:textColor="#ffffff"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/chickenmenu1"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/outline"
+            android:drawableLeft="@mipmap/chicken"
+            android:text="푸라닭"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:backgroundTint="@color/chicken_background" />
+
+        <Button
+            android:id="@+id/chickenmenu2"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#3DDC84"
+            android:drawableLeft="@mipmap/chicken"
+            android:text="후라이드 참 잘하는집"
+            android:textColor="@color/black"
+            android:textColorHint="#ffffff"
+            android:textSize="20sp"
+            app:backgroundTint="#3DDC84" />
+
+        <Button
+            android:id="@+id/chickenmenu3"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#3DDC84"
+            android:drawableLeft="@mipmap/chicken"
+            android:text="노랑 통닭"
+            android:textColor="@color/black"
+            android:textColorHint="#ffffff"
+            android:textSize="20sp"
+            app:backgroundTint="#3DDC84" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

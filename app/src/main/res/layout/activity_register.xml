@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1EA4FF"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="258dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@mipmap/hungry"
+                android:text="뭐 먹을까?"
+                android:textColor="#ffffff"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/CollegeMenu"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/outline"
+            android:drawableLeft="@mipmap/college"
+            android:text="학식 메뉴 "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:backgroundTint="@color/college_background" />
+
+        <Button
+            android:id="@+id/koreanmenu"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#3DDC84"
+            android:drawableLeft="@mipmap/koreanfood"
+            android:text="한식"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            app:backgroundTint="#3DDC84" />
+
+        <Button
+            android:id="@+id/chinesemenu"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#3DDC84"
+            android:drawableLeft="@mipmap/chinesefood"
+            android:text="중국집"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            app:backgroundTint="#3DDC84" />
+
+        <Button
+            android:id="@+id/chickenmenu"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#3DDC84"
+            android:drawableLeft="@mipmap/chicken"
+            android:text="치킨"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            app:backgroundTint="#3DDC84" />
+
+        <Button
+            android:id="@+id/pizzamenu"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#3DDC84"
+            android:drawableLeft="@mipmap/pizza"
+            android:text="피자"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            app:backgroundTint="#3DDC84" />
+
+        <Button
+            android:id="@+id/fastfoodmenu"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#3DDC84"
+            android:drawableLeft="@mipmap/fastfood"
+            android:text="패스트푸드"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            app:backgroundTint="#3DDC84" />
+
+
+        <Button
+            android:id="@+id/pigmenu"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#3DDC84"
+            android:drawableLeft="@mipmap/pig"
+            android:text="족발,보쌈"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            app:backgroundTint="#3DDC84" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
